@@ -1,22 +1,20 @@
 # Lecture 1: Recursion
-## ICPC Assiut — Juniors Phase 2 2026
+## ICPC Assiut - Juniors Phase 2 (2026)
 
-This lecture covers the fundamentals of recursion in competitive programming.
+This session introduces recursion in the context of competitive programming.
 
-We start with the core ideas behind recursion: the base case, the recursive case, and how to think about recursive calls and state transitions. The session then moves through classic examples and applications such as path counting, backtracking, Towers of Hanoi, and bracket generation, with a brief discussion of complexity and when recursion is actually useful.
+It focuses on the core mental model of recursive thinking: defining a state, writing a correct base case, and reducing the current problem to smaller subproblems. The lecture also highlights common recursion patterns such as backtracking and generation.
 
 ## Topics Covered
 
-- What recursion is
-- Base case and recursive case
-- How recursive calls work
-- Thinking in terms of state transitions
-- Ordered vs unordered choices
-- Backtracking
-- Time and space complexity
-- When recursion is useful in problem solving
+- What recursion is and when to use it
+- Base case vs recursive case
+- Tracking state across recursive calls
+- Backtracking fundamentals
+- Time and space complexity of recursive solutions
+- Practical problem-solving strategies
 
-## Problems and Examples
+## Problems in This Session
 
 - Grid Paths
 - Maximum Subarray
@@ -24,29 +22,22 @@ We start with the core ideas behind recursion: the base case, the recursive case
 - Bracket Sequences
 - Count Children
 
-## Files
+## Folder Structure
 
-- `notes.*` — lecture notes / whiteboard export
-- `code/` — solutions and snippets discussed in the lecture
-- `resources.md` — extra notes and practice resources
+- `cpp/` - C++ solutions discussed in this session
+	- `E - Maximum Subarray.cpp`
+	- `H - Generate Bracket Sequences.cpp`
+	- `I - Joe's Family.cpp`
 
-Adjust the file names above to match your actual folder structure.
+## Resources
 
-## Watch the Lecture
-
-YouTube: `https://www.youtube.com/watch?v=HzNTP8faVgo`
-
-## Useful Links
-
+- YouTube: https://www.youtube.com/watch?v=HzNTP8faVgo
 - Codeforces Group: https://codeforces.com/group/mann2U79v2/contests
 - Repository: https://github.com/cgmoreda/cp-lectures
-- LinkedIn: https://www.linkedin.com/in/cgmoreda/
 - Telegram: @cgmoredax
 
-## Who is this for?
+## Target Audience
 
-This lecture is intended for trainees who already have some exposure to recursion and want a deeper understanding of how it works in practice. It focuses on building stronger recursive thinking and preparing for topics where recursion becomes essential, such as dynamic programming, graphs, and segment trees.
+Trainees who already have basic recursion knowledge and want stronger problem-solving skills for advanced topics such as dynamic programming, graph traversal, and segment trees.
 
-## Notes
-
-This lecture is part of **ICPC Assiut — Juniors Phase 2 2026**.
+Part of ICPC Assiut - Juniors Phase 2 (2026).
